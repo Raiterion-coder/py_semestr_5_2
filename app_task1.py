@@ -3,7 +3,7 @@ from PyQt6 import QtWidgets, uic
 
 
 def format_flag_colors(top, middle, bottom):
-    """Возвращаем строку цветов через запятую, игнорируя None значения."""
+    """Возвращает строку цветов через запятую, игнорируя None значения."""
     parts = [p for p in (top, middle, bottom) if p]
     return ", ".join(parts) if parts else ""
 

@@ -5,7 +5,7 @@ from PyQt6 import QtWidgets, uic
 from datetime import datetime
 
 def add_event(events_list, name, date_obj, time_obj):
-    """Добавляем событие как кортеж (datetime, name) в events_list и поддерживаем сортировку."""
+    """Добавляет событие как кортеж (datetime, name) в events_list и поддерживает сортировку."""
     if not name:
         raise ValueError("Название события не может быть пустым")
     dt = datetime(date_obj.year(), date_obj.month(), date_obj.day(),
