@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Task3Window</class>
+ <widget class="QMainWindow" name="Task3Window">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>600</width><height>300</height></rect></property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout">
+    <item><layout class="QHBoxLayout">
+     <item><widget class="QLineEdit" name="le_contact_name"><property name="placeholderText"><string>Имя контакта</string></property></widget></item>
+     <item><widget class="QLineEdit" name="le_contact_phone"><property name="placeholderText"><string>Номер телефона</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_add_contact"><property name="text"><string>Добавить</string></property></widget></item>
+    </layout></item>
+    <item><widget class="QListWidget" name="listContacts"/></item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/><connections/>
+</ui>

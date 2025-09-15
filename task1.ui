@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Task1Window</class>
+ <widget class="QMainWindow" name="Task1Window">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>400</width><height>200</height></rect>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item><widget class="QGroupBox" name="groupBoxTop">
+     <property name="title"><string>Верхняя полоса</string></property>
+     <layout class="QHBoxLayout">
+      <item><widget class="QRadioButton" name="rb_top_red"><property name="text"><string>Красный</string></property></widget></item>
+      <item><widget class="QRadioButton" name="rb_top_white"><property name="text"><string>Белый</string></property></widget></item>
+     </layout>
+    </widget></item>
+    <item><widget class="QGroupBox" name="groupBoxMiddle">
+     <property name="title"><string>Средняя полоса</string></property>
+     <layout class="QHBoxLayout">
+      <item><widget class="QRadioButton" name="rb_mid_green"><property name="text"><string>Зелёный</string></property></widget></item>
+      <item><widget class="QRadioButton" name="rb_mid_blue"><property name="text"><string>Синий</string></property></widget></item>
+     </layout>
+    </widget></item>
+    <item><widget class="QGroupBox" name="groupBoxBottom">
+     <property name="title"><string>Нижняя полоса</string></property>
+     <layout class="QHBoxLayout">
+      <item><widget class="QRadioButton" name="rb_bot_red"><property name="text"><string>Красный</string></property></widget></item>
+      <item><widget class="QRadioButton" name="rb_bot_white"><property name="text"><string>Белый</string></property></widget></item>
+     </layout>
+    </widget></item>
+    <item><widget class="QPushButton" name="btn_draw_flag"><property name="text"><string>Нарисовать</string></property></widget></item>
+    <item><widget class="QLabel" name="lbl_flag_result"><property name="text"><string></string></property></widget></item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

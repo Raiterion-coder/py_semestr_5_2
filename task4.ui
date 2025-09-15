@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Task4Window</class>
+ <widget class="QMainWindow" name="Task4Window">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>600</width><height>300</height></rect></property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout">
+    <item><layout class="QHBoxLayout">
+     <item><widget class="QSpinBox" name="spin_start_n"><property name="value"><number>20</number></property></widget></item>
+     <item><widget class="QPushButton" name="btn_new_game"><property name="text"><string>Новая игра</string></property></widget></item>
+     <item><widget class="QLabel" name="lbl_nim_status"><property name="text"><string>Старт</string></property></widget></item>
+    </layout></item>
+    <item><layout class="QHBoxLayout">
+     <item><widget class="QSpinBox" name="spin_take"><property name="minimum"><number>1</number></property><property name="maximum"><number>3</number></property></widget></item>
+     <item><widget class="QPushButton" name="btn_take"><property name="text"><string>Взять</string></property></widget></item>
+    </layout></item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/><connections/>
+</ui>
